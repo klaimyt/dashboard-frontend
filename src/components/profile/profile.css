@@ -1,0 +1,13 @@
+.profile {
+  margin-top: 5rem;
+}
+
+.profile-img {
+  height: 5rem;
+}
+
+.profile-name {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--text-color);
+}

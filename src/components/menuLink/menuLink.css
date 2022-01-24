@@ -1,0 +1,25 @@
+.menulink {
+  width: 100%;
+  padding: 0.3rem;
+  padding-left: 2rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  transition: 0.2s all ease-in-out;
+}
+
+.menulink:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.menulink span {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.menulink .title {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
