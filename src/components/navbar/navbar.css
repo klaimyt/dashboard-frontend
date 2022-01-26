@@ -9,11 +9,22 @@
 .navbar-profile-img {
   height: 2rem;
   margin: 0 1rem;
+  border-radius: 100%;
   cursor: pointer;
 }
 
-.navbar-msg-icon {
+.navbar-msg-icon, .navbar-theme-icon {
   color: var(--color-gray);
   font-size: 27px;
+  margin: 0 0.5rem;
   cursor: pointer;
+}
+
+.navbar-theme-icon {
+  display: inline-flex;
+}
+
+.navbar-theme-icon.theme__active {
+  transform: scale(1.5);
+  transition: all 0.2s;
 }

@@ -4,6 +4,7 @@
 
 .profile-img {
   height: 5rem;
+  border-radius: 100%;
 }
 
 .profile-name {
