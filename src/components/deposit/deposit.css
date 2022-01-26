@@ -63,7 +63,7 @@ h1.deposit-rent {
     align-items: center;
 }
 
-.status-indicator {
+.deposit-status .status-indicator {
     width: 15px;
     height: 15px;
     border-radius: 10px;
